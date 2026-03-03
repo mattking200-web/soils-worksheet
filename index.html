@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<title>Soils in the Environment – Grade 3 Worksheets</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:"Calibri",Arial,sans-serif;font-size:12pt;color:#111;background:#fff;}
+
+  /* ── Print button (hidden when printing) ── */
+  #printBar{background:#2d6a2d;color:#fff;padding:12px 24px;display:flex;align-items:center;gap:16px;position:sticky;top:0;z-index:100;}
+  #printBar h2{font-size:1rem;font-weight:bold;}
+  #printBar button{background:#fff;color:#2d6a2d;border:none;padding:8px 20px;border-radius:6px;font-size:.95rem;font-weight:bold;cursor:pointer;}
+  @media print{#printBar{display:none;}}
+
+  /* ── Page layout ── */
+  .page{width:21.59cm;min-height:27.94cm;padding:1.8cm 1.8cm 1.6cm;margin:0 auto 0;page-break-after:always;border-bottom:1px dashed #ccc;position:relative;}
+  @media print{
+    .page{width:100%;margin:0;border:none;page-break-after:always;padding:1.4cm 1.6cm;}
+    body{font-size:11pt;}
+  }
+
+  /* ── Cover page ── */
+  .cover-box{background:#2d6a2d;color:#fff;border-radius:8px;padding:28px 24px;text-align:center;margin-bottom:24px;}
+  .cover-box h1{font-size:26pt;font-weight:bold;margin-bottom:6px;}
+  .cover-box p{font-size:12pt;opacity:.9;}
+  .cover-grid{display:grid;grid-template-columns:1fr 1fr;gap:0;border:2px solid #2d6a2d;border-radius:4px;overflow:hidden;margin-bottom:28px;}
+  .cover-cell-h{background:#4a7c4a;color:#fff;font-weight:bold;padding:8px 12px;font-size:10.5pt;}
+  .cover-cell{padding:10px 12px;font-size:11pt;border-top:1px solid #ccc;}
+  .cover-cell:nth-child(odd){border-right:1px solid #ccc;}
+  .name-line{font-size:12pt;margin-bottom:10px;}
+
+  /* ── Section title bar ── */
+  .title-bar{background:#2d6a2d;color:#fff;padding:14px 16px;border-radius:4px;margin-bottom:14px;}
+  .title-bar h2{font-size:16pt;font-weight:bold;}
+  .title-bar p{font-size:10pt;opacity:.85;margin-top:2px;}
+
+  /* ── Name/date row ── */
+  .namedate{display:flex;gap:32px;margin-bottom:16px;font-size:11pt;}
+
+  /* ── Section headers ── */
+  .sec-header{font-size:12pt;font-weight:bold;color:#2d6a2d;margin:18px 0 8px;}
+
+  /* ── Word bank ── */
+  .wordbank{background:#e8f5e9;border:1.5px solid #2d6a2d;border-radius:4px;padding:7px 12px;font-size:10.5pt;font-style:italic;color:#1e4d1e;margin-bottom:10px;}
+
+  /* ── Tables ── */
+  table{width:100%;border-collapse:collapse;margin-bottom:14px;}
+  th{background:#2d6a2d;color:#fff;padding:7px 10px;font-size:11pt;text-align:left;}
+  td{border:1.5px solid #555;padding:7px 10px;font-size:11pt;vertical-align:top;}
+  .sort-td{min-height:60px;height:72px;}
+  .tf-code{width:12%;font-weight:bold;}
+
+  /* ── Fill in blank ── */
+  .fib{margin-bottom:9px;font-size:11pt;line-height:1.7;}
+  .blank{display:inline-block;border-bottom:1.5px solid #333;min-width:110px;}
+
+  /* ── Think box ── */
+  .think-prompt{background:#fff9c4;border:1.5px solid #f9a825;padding:8px 12px;font-style:italic;font-size:11pt;border-radius:3px;margin-bottom:0;}
+  .think-space{border:1.5px solid #555;min-height:80px;padding:8px;}
+
+  /* ── Draw box ── */
+  .draw-box{border:1.5px solid #555;min-height:130px;padding:8px;font-style:italic;color:#777;font-size:10.5pt;}
+
+  /* ── Answer key ── */
+  .ak-bar{background:#333;color:#fff;padding:14px 16px;border-radius:4px;margin-bottom:14px;text-align:center;}
+  .ak-bar h2{font-size:16pt;font-weight:bold;}
+  .ak-bar p{font-size:10pt;opacity:.8;}
+  .ak td:first-child{background:#e8f5e9;font-weight:bold;width:28%;}
+
+  /* tall sort rows */
+  .tall td{height:88px;vertical-align:top;}
+  .three-col th,.three-col td{width:33.3%;}
+</style>
+</head>
+<body>
+
+<div id="printBar">
+  <h2>🌱 Soils in the Environment – Grade 3 Worksheet Package</h2>
+  <button onclick="window.print()">🖨️ Print / Save as PDF</button>
+</div>
+
+<!-- ═══════════════════════════════════ COVER ═══════════════════════════════════ -->
+<div class="page">
+  <div class="cover-box">
+    <h1>🌱 Soils in the Environment</h1>
+    <p>Grade 3 Science – Unit E &nbsp;|&nbsp; Complete Worksheet Package</p>
+  </div>
+  <div class="cover-grid">
+    <div class="cover-cell-h">E1.1</div><div class="cover-cell-h">E1.2</div>
+    <div class="cover-cell">Why Soil is Important</div><div class="cover-cell">What is Soil Made Of?</div>
+    <div class="cover-cell-h">E2.1</div><div class="cover-cell-h">E2.2</div>
+    <div class="cover-cell">Types of Soil</div><div class="cover-cell">Soil and Living Things</div>
+    <div class="cover-cell-h">E2.3</div><div class="cover-cell-h">E2.4</div>
+    <div class="cover-cell">Soil and Water</div><div class="cover-cell">Protecting Our Soil</div>
+  </div>
+  <p class="name-line">Name: ___________________________________________________&nbsp;&nbsp; Class: _________________</p>
+</div>
+
+<!-- ═══════════════════════════════════ E1.1 ═══════════════════════════════════ -->
+<div class="page">
+  <div class="title-bar"><h2>🌍 Why Soil is Important</h2><p>E1.1 | Grade 3 Science</p></div>
+  <div class="namedate"><span>Name: _________________________________</span><span>Date: __________________</span></div>
+
+  <div class="sec-header">📝 Vocabulary Match – Draw a line to connect each word to its meaning.</div>
+  <table>
+    <tr><th style="width:30%">Word</th><th>Definition</th></tr>
+    <tr><td><b>Soil</b></td><td>All people living together in communities and towns</td></tr>
+    <tr><td><b>Society</b></td><td>All the natural things around us including plants, animals, air, and water</td></tr>
+    <tr><td><b>Environment</b></td><td>The top layer of the Earth where plants grow</td></tr>
+    <tr><td><b>Oxygen</b></td><td>A gas released by plants that living things need to breathe</td></tr>
+    <tr><td><b>Filter</b></td><td>To clean a liquid by passing it through something</td></tr>
+  </table>
+
+  <div class="sec-header">✏️ Fill in the Blank</div>
+  <div class="wordbank">Word Bank: <em>soil &nbsp;|&nbsp; society &nbsp;|&nbsp; environment &nbsp;|&nbsp; oxygen &nbsp;|&nbsp; sponge</em></div>
+  <div class="fib">1. <span class="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> is the top layer of the Earth where plants grow.</div>
+  <div class="fib">2. <span class="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> means all the people living together in communities, towns, and cities.</div>
+  <div class="fib">3. The <span class="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> means all the natural things around us including plants, animals, air, and water.</div>
+  <div class="fib">4. Plants that grow in soil give us <span class="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to breathe.</div>
+  <div class="fib">5. Healthy soil acts like a big <span class="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> that soaks up rainwater.</div>
+
+  <div class="sec-header">🗂️ Sort It! Write each item in the correct box.</div>
+  <div class="wordbank">Word Bank: <em>Grows food for people &nbsp;|&nbsp; Provides oxygen through plants &nbsp;|&nbsp; Place to build homes &nbsp;|&nbsp; Home for worms and insects &nbsp;|&nbsp; Filters and cleans water &nbsp;|&nbsp; Grows cotton for clothes</em></div>
+  <table class="tall">
+    <tr><th>👥 Helps Society (People)</th><th>🌍 Helps the Environment (Nature)</th></tr>
+    <tr><td></td><td></td></tr>
+  </table>
+
+  <div class="sec-header">💡 Think About It</div>
+  <div class="think-prompt">Name TWO ways soil helps people every day. Use the word "society" in your answer.</div>
+  <div class="think-space"></div>
+</div>
+
+<!-- ═══════════════════════════════════ E1.2 ═══════════════════════════════════ -->
+<div class="page">
+  <div class="title-bar"><h2>🔬 What is Soil Made Of?</h2><p>E1.2 | Grade 3 Science</p></div>
+  <div class="namedate"><span>Name: _________________________________</span><span>Date: __________________</span></div>
+
+  <div class="sec-header">📝 Vocabulary Match</div>
+  <table>
+    <tr><th style="width:30%">Word</th><th>Definition</th></tr>
+    <tr><td><b>Minerals</b></td><td>Tiny living things too small to see with the naked eye</td></tr>
+    <tr><td><b>Humus</b></td><td>Broken-down pieces of tiny rock that give soil nutrients</td></tr>
+    <tr><td><b>Microorganisms</b></td><td>Dead and decaying plant and animal material in soil</td></tr>
+    <tr><td><b>Pores</b></td><td>Small spaces in soil that hold air and water</td></tr>
+    <tr><td><b>Decompose</b></td><td>To break down into simpler materials</td></tr>
+  </table>
+
+  <div class="sec-header">✏️ Fill in the Blank</div>
+  <div class="wordbank">Word Bank: <em>humus &nbsp;|&nbsp; minerals &nbsp;|&nbsp; water &nbsp;|&nbsp; air &nbsp;|&nbsp; microorganisms</em></div>
+  <div class="fib">1. Soil is made up of tiny pieces of rock called <span class="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.</div>
+  <div class="fib">2. Dead and decayed plant and animal material in soil is called <span class="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.</div>
+  <div class="fib">3. The tiny spaces in soil hold <span class="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> and <span class="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> that plants need to grow.</div>
+  <div class="fib">4. <span class="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> are tiny living things in soil that help break down dead material.</div>
+  <div class="fib">5. <span class="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> and minerals are two important parts of soil that help plants grow.</div>
+
+  <div class="sec-header">🗂️ Sort It! Write each item in the correct box.</div>
+  <div class="wordbank">Word Bank: <em>Tiny pieces of rock &nbsp;|&nbsp; Dead leaves and animals &nbsp;|&nbsp; Worms &nbsp;|&nbsp; Water &nbsp;|&nbsp; Air pockets &nbsp;|&nbsp; Minerals &nbsp;|&nbsp; Bacteria &nbsp;|&nbsp; Sand grains</em></div>
+  <table class="tall">
+    <tr><th>🪨 Non-Living Parts of Soil</th><th>🐛 Living Parts of Soil</th></tr>
+    <tr><td></td><td></td></tr>
+  </table>
+
+  <div class="sec-header">💡 Think About It</div>
+  <div class="think-prompt">Why do plants need more than just water to grow? Describe TWO things found in soil that help plants survive.</div>
+  <div class="think-space"></div>
+</div>
+
+<!-- ═══════════════════════════════════ E2.1 ═══════════════════════════════════ -->
+<div class="page">
+  <div class="title-bar"><h2>🟤 Types of Soil</h2><p>E2.1 | Grade 3 Science</p></div>
+  <div class="namedate"><span>Name: _________________________________</span><span>Date: __________________</span></div>
+
+  <div class="sec-header">📝 Vocabulary Match</div>
+  <table>
+    <tr><th style="width:30%">Word</th><th>Definition</th></tr>
+    <tr><td><b>Clay soil</b></td><td>A type of soil with large particles that drains water quickly</td></tr>
+    <tr><td><b>Sandy soil</b></td><td>A type of soil with tiny particles that holds water and gets sticky when wet</td></tr>
+    <tr><td><b>Loam</b></td><td>A mixture of sand, silt, and clay — the best soil for growing plants</td></tr>
+    <tr><td><b>Texture</b></td><td>How a material feels when you touch it</td></tr>
+    <tr><td><b>Drainage</b></td><td>How quickly water moves through soil</td></tr>
+  </table>
+
+  <div class="sec-header">✏️ Fill in the Blank</div>
+  <div class="wordbank">Word Bank: <em>clay &nbsp;|&nbsp; sandy &nbsp;|&nbsp; loam &nbsp;|&nbsp; texture &nbsp;|&nbsp; drainage</em></div>
+  <div class="fib">1. <span class="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> soil has tiny particles and gets sticky and hard when it dries.</div>
+  <div class="fib">2. <span class="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> soil has large particles and lets water pass through very quickly.</div>
+  <div class="fib">3. <span class="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> is the best type of soil for growing plants because it holds just enough water.</div>
+  <div class="fib">4. The <span class="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> of soil tells us how it feels — rough, smooth, or sticky.</div>
+  <div class="fib">5. Good <span class="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> means water flows through soil at just the right speed for plant roots.</div>
+
+  <div class="sec-header">🗂️ Sort It!</div>
+  <div class="wordbank">Word Bank: <em>Holds water well &nbsp;|&nbsp; Drains too fast &nbsp;|&nbsp; Sticky when wet &nbsp;|&nbsp; Feels gritty &nbsp;|&nbsp; Best for growing plants &nbsp;|&nbsp; Cracks when dry &nbsp;|&nbsp; Good mix of particles &nbsp;|&nbsp; Lets water run right through</em></div>
+  <table class="tall three-col">
+    <tr><th>🟤 Clay Soil</th><th>🏖️ Sandy Soil</th><th>🌱 Loam</th></tr>
+    <tr><td></td><td></td><td></td></tr>
+  </table>
+
+  <div class="sec-header">💡 Think About It</div>
+  <div class="think-prompt">A farmer wants to grow carrots. Which type of soil would you recommend? Explain why using the words "drainage" and "texture".</div>
+  <div class="think-space"></div>
+</div>
+
+<!-- ═══════════════════════════════════ E2.2 ═══════════════════════════════════ -->
+<div class="page">
+  <div class="title-bar"><h2>🐛 Soil and Living Things</h2><p>E2.2 | Grade 3 Science</p></div>
+  <div class="namedate"><span>Name: _________________________________</span><span>Date: __________________</span></div>
+
+  <div class="sec-header">📝 Vocabulary Match</div>
+  <table>
+    <tr><th style="width:30%">Word</th><th>Definition</th></tr>
+    <tr><td><b>Decomposer</b></td><td>An animal that digs through soil, mixing and aerating it</td></tr>
+    <tr><td><b>Earthworm</b></td><td>An organism that breaks down dead material into nutrients</td></tr>
+    <tr><td><b>Nutrient</b></td><td>A substance that living things need to grow and stay healthy</td></tr>
+    <tr><td><b>Aerate</b></td><td>To add air into soil by mixing or turning it</td></tr>
+    <tr><td><b>Habitat</b></td><td>A place where plants and animals live and find what they need</td></tr>
+  </table>
+
+  <div class="sec-header">✏️ Fill in the Blank</div>
+  <div class="wordbank">Word Bank: <em>earthworms &nbsp;|&nbsp; nutrients &nbsp;|&nbsp; decomposers &nbsp;|&nbsp; habitat &nbsp;|&nbsp; aerate</em></div>
+  <div class="fib">1. <span class="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> tunnel through soil, which helps mix it and lets air in.</div>
+  <div class="fib">2. Bacteria and fungi are <span class="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> — they break down dead things into nutrients.</div>
+  <div class="fib">3. When decomposers break down dead material, they release <span class="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> that plants can use.</div>
+  <div class="fib">4. <span class="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> means adding air into soil so plant roots can breathe.</div>
+  <div class="fib">5. Soil provides a <span class="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> for millions of living things including insects, worms, and fungi.</div>
+
+  <div class="sec-header">🗂️ Sort It!</div>
+  <div class="wordbank">Word Bank: <em>Earthworm &nbsp;|&nbsp; Oak tree &nbsp;|&nbsp; Mushroom &nbsp;|&nbsp; Robin &nbsp;|&nbsp; Bacteria &nbsp;|&nbsp; Grass &nbsp;|&nbsp; Beetle &nbsp;|&nbsp; Dandelion</em></div>
+  <table class="tall">
+    <tr><th>🌱 Plants (grow IN soil)</th><th>🐛 Animals &amp; Decomposers (live IN soil)</th></tr>
+    <tr><td></td><td></td></tr>
+  </table>
+
+  <div class="sec-header">🎨 Draw &amp; Label</div>
+  <div class="draw-box">Draw a cross-section of soil showing at least THREE living things. Label what each creature does for the soil.</div>
+</div>
+
+<!-- ═══════════════════════════════════ E2.3 ═══════════════════════════════════ -->
+<div class="page">
+  <div class="title-bar"><h2>💧 Soil and Water</h2><p>E2.3 | Grade 3 Science</p></div>
+  <div class="namedate"><span>Name: _________________________________</span><span>Date: __________________</span></div>
+
+  <div class="sec-header">📝 Vocabulary Match</div>
+  <table>
+    <tr><th style="width:30%">Word</th><th>Definition</th></tr>
+    <tr><td><b>Absorption</b></td><td>The wearing away of soil by wind or water</td></tr>
+    <tr><td><b>Erosion</b></td><td>When soil soaks up and holds water</td></tr>
+    <tr><td><b>Runoff</b></td><td>The movement of water over the surface of the ground</td></tr>
+    <tr><td><b>Permeability</b></td><td>How easily water can move through soil</td></tr>
+    <tr><td><b>Flooding</b></td><td>When too much water covers land that is normally dry</td></tr>
+  </table>
+
+  <div class="sec-header">✏️ Fill in the Blank</div>
+  <div class="wordbank">Word Bank: <em>erosion &nbsp;|&nbsp; absorption &nbsp;|&nbsp; runoff &nbsp;|&nbsp; flooding &nbsp;|&nbsp; permeability</em></div>
+  <div class="fib">1. <span class="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> is the wearing away of soil by wind or water.</div>
+  <div class="fib">2. When soil soaks up rainwater, it is called <span class="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.</div>
+  <div class="fib">3. Water that flows over the ground instead of soaking in is called <span class="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.</div>
+  <div class="fib">4. <span class="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> describes how easily water can move through soil.</div>
+  <div class="fib">5. Healthy soil that absorbs water well can help prevent <span class="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.</div>
+
+  <div class="sec-header">✅ True or False – Circle T or F.</div>
+  <table>
+    <tr><th class="tf-code">T / F</th><th>Statement</th></tr>
+    <tr><td class="tf-code">T &nbsp;&nbsp; F</td><td>Sandy soil absorbs water more slowly than clay soil.</td></tr>
+    <tr><td class="tf-code">T &nbsp;&nbsp; F</td><td>Soil with lots of organic matter can hold more water.</td></tr>
+    <tr><td class="tf-code">T &nbsp;&nbsp; F</td><td>Erosion is when soil is worn away by wind or water.</td></tr>
+    <tr><td class="tf-code">T &nbsp;&nbsp; F</td><td>Plants help prevent soil erosion by holding soil in place with their roots.</td></tr>
+    <tr><td class="tf-code">T &nbsp;&nbsp; F</td><td>Water runoff is good for preventing flooding.</td></tr>
+  </table>
+
+  <div class="sec-header">💡 Think About It</div>
+  <div class="think-prompt">Why do farmers plant crops or grasses on hillsides? How does this help prevent erosion? Use the words "roots" and "runoff" in your answer.</div>
+  <div class="think-space"></div>
+</div>
+
+<!-- ═══════════════════════════════════ E2.4 ═══════════════════════════════════ -->
+<div class="page">
+  <div class="title-bar"><h2>♻️ Protecting Our Soil</h2><p>E2.4 | Grade 3 Science</p></div>
+  <div class="namedate"><span>Name: _________________________________</span><span>Date: __________________</span></div>
+
+  <div class="sec-header">📝 Vocabulary Match</div>
+  <table>
+    <tr><th style="width:30%">Word</th><th>Definition</th></tr>
+    <tr><td><b>Compost</b></td><td>The practice of rotating different crops each year to keep soil healthy</td></tr>
+    <tr><td><b>Crop rotation</b></td><td>A mixture of decayed food scraps and plant material added to soil</td></tr>
+    <tr><td><b>Contamination</b></td><td>When harmful chemicals or substances get into soil</td></tr>
+    <tr><td><b>Conservation</b></td><td>Protecting natural resources so they are not used up or damaged</td></tr>
+    <tr><td><b>Sustainable</b></td><td>Using resources in a way that can continue long into the future</td></tr>
+  </table>
+
+  <div class="sec-header">✏️ Fill in the Blank</div>
+  <div class="wordbank">Word Bank: <em>compost &nbsp;|&nbsp; contamination &nbsp;|&nbsp; conservation &nbsp;|&nbsp; crop rotation &nbsp;|&nbsp; sustainable</em></div>
+  <div class="fib">1. Adding <span class="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> to soil improves it by adding nutrients from decayed material.</div>
+  <div class="fib">2. <span class="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> means planting different crops each season to keep the soil healthy.</div>
+  <div class="fib">3. <span class="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> of soil happens when chemicals or waste get into it and make it unhealthy.</div>
+  <div class="fib">4. Soil <span class="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> means protecting soil so it stays healthy for future generations.</div>
+  <div class="fib">5. Farming in a <span class="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> way means using methods that don't permanently damage the land.</div>
+
+  <div class="sec-header">🗂️ Sort It!</div>
+  <div class="wordbank">Word Bank: <em>Adding compost &nbsp;|&nbsp; Using too many chemicals &nbsp;|&nbsp; Planting trees &nbsp;|&nbsp; Leaving soil bare &nbsp;|&nbsp; Crop rotation &nbsp;|&nbsp; Pouring oil on ground &nbsp;|&nbsp; Reducing erosion &nbsp;|&nbsp; Overwatering</em></div>
+  <table class="tall">
+    <tr><th>✅ Protects Soil</th><th>⚠️ Harms Soil</th></tr>
+    <tr><td></td><td></td></tr>
+  </table>
+
+  <div class="sec-header">💡 Think About It</div>
+  <div class="think-prompt">Imagine a farm that uses the same crop every year and never adds compost. What problems might happen? What would you suggest the farmer do differently?</div>
+  <div class="think-space"></div>
+</div>
+
+<!-- ═══════════════════════════════════ ANSWER KEY ═══════════════════════════════════ -->
+<div class="page">
+  <div class="ak-bar"><h2>🔑 Answer Key</h2><p>Teacher Reference Only | Grade 3 Science</p></div>
+  <table class="ak">
+    <tr><th>Section</th><th>Answers</th></tr>
+    <tr><td>E1.1 – Vocab</td><td>Soil = top layer of Earth | Society = people in communities | Environment = natural world | Oxygen = gas from plants | Filter = clean by passing through</td></tr>
+    <tr><td>E1.1 – Fill in Blank</td><td>1. Soil &nbsp; 2. Society &nbsp; 3. environment &nbsp; 4. oxygen &nbsp; 5. sponge</td></tr>
+    <tr><td>E1.1 – Sort</td><td><b>Society:</b> Grows food, Place to build homes, Grows cotton &nbsp;|&nbsp; <b>Environment:</b> Provides oxygen, Home for worms, Filters water</td></tr>
+    <tr><td>E1.2 – Vocab</td><td>Minerals = rock pieces | Humus = decayed material | Microorganisms = tiny living things | Pores = small spaces | Decompose = break down</td></tr>
+    <tr><td>E1.2 – Fill in Blank</td><td>1. minerals &nbsp; 2. humus &nbsp; 3. water, air &nbsp; 4. Microorganisms &nbsp; 5. Humus</td></tr>
+    <tr><td>E1.2 – Sort</td><td><b>Non-Living:</b> Tiny pieces of rock, Water, Air pockets, Minerals, Sand grains &nbsp;|&nbsp; <b>Living:</b> Worms, Bacteria</td></tr>
+    <tr><td>E2.1 – Vocab</td><td>Clay = tiny particles, sticky | Sandy = large particles, drains fast | Loam = best mix | Texture = how it feels | Drainage = speed of water flow</td></tr>
+    <tr><td>E2.1 – Fill in Blank</td><td>1. Clay &nbsp; 2. Sandy &nbsp; 3. Loam &nbsp; 4. texture &nbsp; 5. drainage</td></tr>
+    <tr><td>E2.1 – Sort</td><td><b>Clay:</b> Holds water, Sticky when wet, Cracks when dry &nbsp;|&nbsp; <b>Sandy:</b> Drains too fast, Feels gritty, Lets water run through &nbsp;|&nbsp; <b>Loam:</b> Best for growing, Good mix of particles</td></tr>
+    <tr><td>E2.2 – Vocab</td><td>Decomposer = breaks down dead material | Earthworm = digs/aerates | Nutrient = needed to grow | Aerate = add air | Habitat = place to live</td></tr>
+    <tr><td>E2.2 – Fill in Blank</td><td>1. Earthworms &nbsp; 2. decomposers &nbsp; 3. nutrients &nbsp; 4. Aerate &nbsp; 5. habitat</td></tr>
+    <tr><td>E2.2 – Sort</td><td><b>Plants:</b> Oak tree, Grass, Dandelion &nbsp;|&nbsp; <b>Animals/Decomposers:</b> Earthworm, Mushroom, Bacteria, Beetle</td></tr>
+    <tr><td>E2.3 – Vocab</td><td>Absorption = soaks up water | Erosion = wearing away | Runoff = water over surface | Permeability = ease of water flow | Flooding = too much water</td></tr>
+    <tr><td>E2.3 – Fill in Blank</td><td>1. Erosion &nbsp; 2. absorption &nbsp; 3. runoff &nbsp; 4. Permeability &nbsp; 5. flooding</td></tr>
+    <tr><td>E2.3 – True/False</td><td>1. F &nbsp; 2. T &nbsp; 3. T &nbsp; 4. T &nbsp; 5. F</td></tr>
+    <tr><td>E2.4 – Vocab</td><td>Compost = decayed material added to soil | Crop rotation = changing crops each year | Contamination = harmful things in soil | Conservation = protecting resources | Sustainable = long-term responsible use</td></tr>
+    <tr><td>E2.4 – Fill in Blank</td><td>1. compost &nbsp; 2. Crop rotation &nbsp; 3. Contamination &nbsp; 4. conservation &nbsp; 5. sustainable</td></tr>
+    <tr><td>E2.4 – Sort</td><td><b>Protects:</b> Adding compost, Planting trees, Crop rotation, Reducing erosion &nbsp;|&nbsp; <b>Harms:</b> Too many chemicals, Leaving soil bare, Pouring oil, Overwatering</td></tr>
+  </table>
+</div>
+
+</body>
+</html>
